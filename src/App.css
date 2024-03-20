@@ -13,3 +13,16 @@
   justify-content: center;
   text-align: center;
 }
+.win {
+  border: 10px solid green;
+  color: green;
+}
+.lose {
+  border: 10px solid red;
+  color: red;
+}
+.tie {
+  border: 10px solid black;
+  color: black;
+}
+
