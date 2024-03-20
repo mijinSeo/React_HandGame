@@ -1,28 +1,51 @@
 .box{
-  border: 1px solid black;
-  width: 500px;
-  
+  border: 10px solid black;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+
 }
 
 .item-img{
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 320px;
+  
+}
+.body{
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;;
+  flex-direction:column;
+  background-color: rgb(218, 65, 116);
 }
 .main{
   display: flex;
   justify-content: center;
   text-align: center;
 }
+button{
+  margin: 25px 5px;
+  padding: 5px;
+  border: 3px solid pink;
+  border-radius: 100px;
+  background-color: rgb(254, 212, 219);
+  color: pink;
+}
+button:hover{
+  border: 3px solid brown;
+  color: brown;
+}
 .win {
   border: 10px solid green;
   color: green;
 }
 .lose {
-  border: 10px solid red;
-  color: red;
+  border: 10px solid rgb(186, 185, 185);
+  color: rgb(186, 185, 185);
 }
 .tie {
-  border: 10px solid black;
-  color: black;
+  border: 10px solid rgb(77, 16, 16);
+  color:rgb(77, 16, 16);
 }
 

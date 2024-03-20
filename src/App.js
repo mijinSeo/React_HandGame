@@ -52,15 +52,18 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='body'>
+      <div className='main'>
+        <h1>Play Mini Game! </h1>
+      </div>
       <div className='main'>
         <Box title="You" item={userSelect} result={result}/>
         <Box title="Computer" item={computerSelect} result={result}/>
       </div>
       <div className='main'>
-        <button onClick={() => play("scissors")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+        <button className='fa-regular fa-hand-scissors fa-2x' onClick={() => play("scissors")}></button>
+        <button className='fa-regular fa-hand-back-fist fa-2x' onClick={() => play("rock")}></button>
+        <button className='fa-regular fa-hand fa-2x' onClick={() => play("paper")}></button>
       </div>
     </div>
   );
